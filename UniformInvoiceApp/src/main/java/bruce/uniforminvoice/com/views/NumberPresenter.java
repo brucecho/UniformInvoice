@@ -25,6 +25,7 @@ public class NumberPresenter {
                 appBar.setTitleText("Number");
                 appBar.getActionItems().add(MaterialDesignIcon.SEARCH.button(e -> 
                         System.out.println("Search")));
+                appBar.setVisible(false);
             }
         });
     }
