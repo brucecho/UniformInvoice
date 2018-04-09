@@ -9,7 +9,7 @@ import com.gluonhq.charm.glisten.visual.MaterialDesignIcon;
 import bruce.uniforminvoice.com.UniformInvoice;
 import javafx.fxml.FXML;
 
-public class KeyInPresenter {
+public class KeyInCheckPresenter {
 
     @FXML
     private View keyin;

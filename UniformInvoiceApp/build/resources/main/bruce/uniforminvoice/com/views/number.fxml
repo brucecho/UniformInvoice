@@ -5,6 +5,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -39,95 +40,16 @@
               </rowConstraints>
                <children>
                   <Label text="月份" />
-                  <GridPane alignment="TOP_CENTER" hgap="5.0" layoutX="10.0" layoutY="169.0" vgap="5.0" GridPane.columnSpan="2" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
-                     <columnConstraints>
-                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="170.0" minWidth="10.0" prefWidth="84.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="241.0" minWidth="10.0" prefWidth="195.0" />
-                     </columnConstraints>
-                     <rowConstraints>
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
-                     </rowConstraints>
-                     <children>
-                        <Label text="二獎" GridPane.rowSpan="2" />
-                        <TextField fx:id="text_Number_PriceNumberD" GridPane.columnIndex="1" />
-                        <Label text="末7位數與頭獎末7位數相同" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS" />
-                     </children>
-                     <GridPane.margin>
-                        <Insets />
-                     </GridPane.margin>
-                  </GridPane>
-                  <GridPane alignment="TOP_CENTER" hgap="5.0" layoutX="10.0" layoutY="233.0" vgap="5.0" GridPane.columnSpan="2" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
-                     <columnConstraints>
-                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="170.0" minWidth="10.0" prefWidth="85.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="240.0" minWidth="10.0" prefWidth="194.0" />
-                     </columnConstraints>
-                     <rowConstraints>
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
-                     </rowConstraints>
-                     <children>
-                        <Label text="三獎" GridPane.rowSpan="2" />
-                        <TextField fx:id="text_Number_PriceNumberE" GridPane.columnIndex="1" />
-                        <Label text="末6位數與頭獎末6位數相同" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS" />
-                     </children>
-                  </GridPane>
-                  <GridPane alignment="TOP_CENTER" hgap="5.0" layoutX="10.0" layoutY="263.0" vgap="5.0" GridPane.columnSpan="2" GridPane.rowIndex="6" GridPane.vgrow="ALWAYS">
-                     <columnConstraints>
-                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="170.0" minWidth="10.0" prefWidth="85.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="237.0" minWidth="10.0" prefWidth="194.0" />
-                     </columnConstraints>
-                     <rowConstraints>
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
-                     </rowConstraints>
-                     <children>
-                        <Label text="四獎" GridPane.rowSpan="2" />
-                        <TextField fx:id="text_Number_PriceNumberF" GridPane.columnIndex="1" />
-                        <Label text="末5位數與頭獎末5位數相同" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS" />
-                     </children>
-                  </GridPane>
-                  <GridPane alignment="TOP_CENTER" hgap="5.0" layoutX="10.0" layoutY="293.0" vgap="5.0" GridPane.columnSpan="2" GridPane.rowIndex="7" GridPane.vgrow="ALWAYS">
-                     <columnConstraints>
-                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="170.0" minWidth="10.0" prefWidth="84.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="239.0" minWidth="10.0" prefWidth="195.0" />
-                     </columnConstraints>
-                     <rowConstraints>
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
-                     </rowConstraints>
-                     <children>
-                        <Label text="五獎" GridPane.rowSpan="2" />
-                        <TextField fx:id="text_Number_PriceNumberG" GridPane.columnIndex="1" />
-                        <Label text="末4位數與頭獎末4位數相同" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS" />
-                     </children>
-                  </GridPane>
-                  <GridPane alignment="TOP_CENTER" hgap="5.0" layoutX="10.0" layoutY="293.0" vgap="5.0" GridPane.columnSpan="2" GridPane.rowIndex="8" GridPane.vgrow="ALWAYS">
-                     <columnConstraints>
-                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="170.0" minWidth="10.0" prefWidth="85.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="238.0" minWidth="10.0" prefWidth="194.0" />
-                     </columnConstraints>
-                     <rowConstraints>
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
-                     </rowConstraints>
-                     <children>
-                        <Label text="六獎" GridPane.rowSpan="2" />
-                        <TextField fx:id="text_Number_PriceNumberH" GridPane.columnIndex="1" />
-                        <Label text="末3位數與頭獎末3位數相同" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS" />
-                     </children>
-                  </GridPane>
                   <Label layoutX="58.0" layoutY="16.0" text="領獎注意事項" GridPane.rowIndex="10" />
                   <TextField GridPane.columnIndex="1" />
                   <Label text="特別獎" GridPane.rowIndex="1" />
-                  <TextField fx:id="text_Number_PriceNumberA" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="text_Number_SpecialPrize" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <Label text="特獎" GridPane.rowIndex="2" />
-                  <TextField fx:id="text_Number_PriceNumberB" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="text_Number_GrandPrize" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                   <Label text="頭獎" GridPane.rowIndex="3" />
-                  <TextField fx:id="text_Number_PriceNumberC" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                   <Label text="增開" GridPane.rowIndex="9" />
-                  <TextField fx:id="text_Number_PriceNumberI" GridPane.columnIndex="1" GridPane.rowIndex="9" />
-                  <TextField fx:id="text_Number_Note" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="10" />
+                  <TextField fx:id="text_Number_AddSixPrize" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                  <TextField fx:id="text_Number_Note" editable="false" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="10" />
                   <Label text="1,000萬" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                   <Label text="200萬" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                   <Label text="20萬" GridPane.columnIndex="2" GridPane.rowIndex="3" />
@@ -137,7 +59,18 @@
                   <Label text="1,000" GridPane.columnIndex="2" GridPane.rowIndex="7" />
                   <Label text="200" GridPane.columnIndex="2" GridPane.rowIndex="8" />
                   <Label text="200" GridPane.columnIndex="2" GridPane.rowIndex="9" />
-                  <TextField fx:id="text_Number_Month" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+                  <TextField fx:id="text_Number_Month" editable="false" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+                  <Label text="二獎" GridPane.rowIndex="4" />
+                  <Label text="末7位數與頭獎末7位數相同" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Label text="三獎" GridPane.rowIndex="5" />
+                  <Label text="末6位數與頭獎末6位數相同" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Label text="四獎" GridPane.rowIndex="6" />
+                  <Label text="末5位數與頭獎末5位數相同" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Label text="五獎" GridPane.rowIndex="7" />
+                  <Label text="末4位數與頭獎末4位數相同" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Label text="六獎" GridPane.rowIndex="8" />
+                  <Label text="末3位數與頭獎末3位數相同" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <TextArea fx:id="text_Number_FirstPrize" editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                </children>
                <VBox.margin>
                   <Insets />

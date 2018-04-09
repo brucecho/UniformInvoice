@@ -20,6 +20,7 @@ mainClassName = 'bruce.uniforminvoice.com.UniformInvoice'
 
 dependencies {
     compile 'com.gluonhq:charm:4.4.1'
+    compile fileTree(dir: 'lib', include: ['*.jar'])
 }
 
 jfxmobile {

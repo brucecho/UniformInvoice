@@ -12,7 +12,9 @@ import com.gluonhq.charm.glisten.control.NavigationDrawer.ViewItem;
 import com.gluonhq.charm.glisten.visual.MaterialDesignIcon;
 import static bruce.uniforminvoice.com.UniformInvoice.MENU_LAYER;
 import static bruce.uniforminvoice.com.UniformInvoice.NUMBER_VIEW;
-import static bruce.uniforminvoice.com.UniformInvoice.KEYIN_VIEW;
+import static bruce.uniforminvoice.com.UniformInvoice.KEYINCHECK_VIEW;
+import static bruce.uniforminvoice.com.UniformInvoice.SCANCHECK_VIEW;
+import static bruce.uniforminvoice.com.UniformInvoice.STOREINVOICE_VIEW;
 import javafx.scene.Node;
 import javafx.scene.image.Image;
 
@@ -28,8 +30,9 @@ public class DrawerManager {
                 new Avatar(21, new Image(DrawerManager.class.getResourceAsStream("/icon.png"))));
         drawer.setHeader(header);
         
-        final Item numberItem = new ViewItem("Number", MaterialDesignIcon.HOME.graphic(), NUMBER_VIEW, ViewStackPolicy.SKIP);
-        final Item keyinItem = new ViewItem("KeyIn", MaterialDesignIcon.DASHBOARD.graphic(), KEYIN_VIEW);
+        final Item numberItem = new ViewItem("中獎號碼", MaterialDesignIcon.HOME.graphic(), NUMBER_VIEW, ViewStackPolicy.SKIP);
+        final Item keyinCheckItem = new ViewItem("輸入兌獎", MaterialDesignIcon.DASHBOARD.graphic(), KEYINCHECK_VIEW);
+        final Item scanCheckItem = new ViewItem("輸入兌獎", MaterialDesignIcon.DASHBOARD.graphic(), KEYINCHECK_VIEW);
         drawer.getItems().addAll(numberItem, keyinItem);
         
         if (Platform.isDesktop()) {

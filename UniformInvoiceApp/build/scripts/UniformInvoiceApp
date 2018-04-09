@@ -64,7 +64,7 @@ case "`uname`" in
     ;;
 esac
 
-CLASSPATH=$APP_HOME/lib/UniformInvoiceApp.jar:$APP_HOME/lib/charm-4.4.1.jar:$APP_HOME/lib/charm-glisten-connect-view-4.4.1.jar:$APP_HOME/lib/charm-glisten-4.4.1.jar:$APP_HOME/lib/charm-down-plugin-display-3.7.2.jar:$APP_HOME/lib/charm-down-plugin-lifecycle-3.7.2.jar:$APP_HOME/lib/charm-down-plugin-statusbar-3.7.2.jar:$APP_HOME/lib/charm-cloudlink-client-4.4.4.jar:$APP_HOME/lib/charm-down-plugin-storage-3.7.2.jar:$APP_HOME/lib/connect-1.4.3.jar:$APP_HOME/lib/charm-down-plugin-device-3.6.0.jar:$APP_HOME/lib/charm-down-plugin-in-app-billing-3.6.0.jar:$APP_HOME/lib/charm-down-plugin-push-notifications-3.6.0.jar:$APP_HOME/lib/charm-down-plugin-runtime-args-3.6.0.jar:$APP_HOME/lib/charm-down-core-3.7.2.jar:$APP_HOME/lib/javax.json-1.0.4.jar
+CLASSPATH=$APP_HOME/lib/UniformInvoiceApp.jar:$APP_HOME/lib/jsoup-1.11.2.jar:$APP_HOME/lib/charm-4.4.1.jar:$APP_HOME/lib/charm-glisten-connect-view-4.4.1.jar:$APP_HOME/lib/charm-glisten-4.4.1.jar:$APP_HOME/lib/charm-down-plugin-display-3.7.2.jar:$APP_HOME/lib/charm-down-plugin-lifecycle-3.7.2.jar:$APP_HOME/lib/charm-down-plugin-statusbar-3.7.2.jar:$APP_HOME/lib/charm-cloudlink-client-4.4.4.jar:$APP_HOME/lib/charm-down-plugin-storage-3.7.2.jar:$APP_HOME/lib/connect-1.4.3.jar:$APP_HOME/lib/charm-down-plugin-device-3.6.0.jar:$APP_HOME/lib/charm-down-plugin-in-app-billing-3.6.0.jar:$APP_HOME/lib/charm-down-plugin-push-notifications-3.6.0.jar:$APP_HOME/lib/charm-down-plugin-runtime-args-3.6.0.jar:$APP_HOME/lib/charm-down-core-3.7.2.jar:$APP_HOME/lib/javax.json-1.0.4.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then

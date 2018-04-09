@@ -5,14 +5,23 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
       <group>
-        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/NumberPresenter.java</file>
-        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/NumberView.java</file>
+        <file>file:/C:/JavaWorkplace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/NumberPresenter.java</file>
       </group>
     </open-files>
     <editor-bookmarks lastBookmarkId="0" xmlns="http://www.netbeans.org/ns/editor-bookmarks/2"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
       <group>
-        <file>file:/C:/JavaWorkplace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/NumberPresenter.java</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/build.gradle</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/StoreInvoicePresenter.java</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/ScanCheckView.java</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/KeyInCheckView.java</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/StoreInvoiceView.java</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/UniformInvoice.java</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/ScanCheckPresenter.java</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/KeyInCheckPresenter.java</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/NumberView.java</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/views/NumberPresenter.java</file>
+        <file>file:/F:/JavaWorkPlace/UniformInvoice/UniformInvoiceApp/src/main/java/bruce/uniforminvoice/com/DrawerManager.java</file>
       </group>
     </open-files>
   </auxiliary>
