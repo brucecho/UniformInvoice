@@ -32,8 +32,9 @@ public class DrawerManager {
         
         final Item numberItem = new ViewItem("中獎號碼", MaterialDesignIcon.HOME.graphic(), NUMBER_VIEW, ViewStackPolicy.SKIP);
         final Item keyinCheckItem = new ViewItem("輸入兌獎", MaterialDesignIcon.DASHBOARD.graphic(), KEYINCHECK_VIEW);
-        final Item scanCheckItem = new ViewItem("輸入兌獎", MaterialDesignIcon.DASHBOARD.graphic(), KEYINCHECK_VIEW);
-        drawer.getItems().addAll(numberItem, keyinItem);
+        final Item scanCheckItem = new ViewItem("掃描兌獎", MaterialDesignIcon.DASHBOARD.graphic(), SCANCHECK_VIEW);
+        final Item storeinvoiceItem = new ViewItem("記憶發票", MaterialDesignIcon.DASHBOARD.graphic(), STOREINVOICE_VIEW);
+        drawer.getItems().addAll(numberItem, keyinCheckItem,scanCheckItem,storeinvoiceItem);
         
         if (Platform.isDesktop()) {
             final Item quitItem = new Item("Quit", MaterialDesignIcon.EXIT_TO_APP.graphic());
